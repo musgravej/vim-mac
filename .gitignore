@@ -1,5 +1,3 @@
-/.vim/bundle
-/.vim/black
-*.swp
+.vim/bundle/*
+.idea/*
 /.vim/scratch.py
-
