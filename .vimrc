@@ -1,3 +1,10 @@
+source ~/.vim/plugins.vim
+source ~/.vim/fzf_settings.vim
+source ~/.vim/commands.vim
+source ~/.vim/editor_settings.vim
+source ~/.vim/file_syntax_settings.vim
+source ~/.vim/keymap.vim
+
 set nocompatible              " required
 filetype off                  " required
 filetype plugin on
@@ -16,19 +23,19 @@ filetype plugin on
 " colorscheme onedark
 
 " syntax_settings
-source ~/.vim/file_syntax_settings.vim
-source ~/.vim/keymap.vim
+" source ~/.vim/file_syntax_settings.vim
+" source ~/.vim/keymap.vim
 " let mapleader=","
 
 " keymap >>
-"" nnoremap <space> za
-" insert mode map >>"
-"" inoremap jk <esc>
-" normal mode map >>"
-"" nnoremap <silent> <C-@>  :<c-u>put!=repeat([''],v:count)<bar>']+1<cr>
+" nnoremap <space> za
+" insert mode map >>
+" inoremap jk <esc>
+" normal mode map >>
+" nnoremap <silent> <C-@>  :<c-u>put!=repeat([''],v:count)<bar>']+1<cr>
 " nnoremap <silent> ]<space>  :<c-u>put =repeat([''],v:count)<bar>'[-1<cr>]]
 " NERDTree settings
-"" nnoremap <leader>n :NERDTreeFocus<CR>
+" nnoremap <leader>n :NERDTreeFocus<CR>
 " nnoremap <C-n> :NERDTree<CR>
 "" "nnoremap <C-t> :NERDTreeToggle<CR>
 "" "nnoremap <leader>d :NERDTreeFind<CR>
@@ -72,7 +79,7 @@ source ~/.vim/keymap.vim
 " map g* <Plug>(incsearch-nohl-g*)
 " map g# <Plug>(incsearch-nohl-g#)
 
-source ~/.vim/plugins.vim
-source ~/.vim/fzf_settings.vim
-source ~/.vim/commands.vim
-source ~/.vim/editor_settings.vim
+" source ~/.vim/plugins.vim
+" source ~/.vim/fzf_settings.vim
+" source ~/.vim/commands.vim
+" source ~/.vim/editor_settings.vim
