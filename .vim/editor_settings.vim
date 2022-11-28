@@ -10,7 +10,7 @@ syntax enable
 " source ~/.vim/colorscheme.vim
 set background=dark
 colorscheme darcula
-
+setlocal spell spelllang=en_us
 
 let mapleader=","
 set number
