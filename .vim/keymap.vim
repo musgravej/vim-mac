@@ -1,3 +1,5 @@
+" keymap >>
+nnoremap <space> za
 " insert mode map"
 inoremap jk <esc>
 
