@@ -1,4 +1,3 @@
-" command Loadrc :source ~/.vimrc
 command Loadrc :source ~/.vimrc
 command Clrs :nohlsearch 
 command Nh :nohlsearch 

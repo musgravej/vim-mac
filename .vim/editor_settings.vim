@@ -11,6 +11,7 @@ syntax enable
 set background=dark
 colorscheme darcula
 setlocal spell spelllang=en_us
+set nospell
 
 let mapleader=","
 set number
