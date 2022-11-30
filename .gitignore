@@ -2,4 +2,5 @@
 .idea/*
 .vim/scratch.py
 .vim/scratch.json
+.vim/black/*
 
