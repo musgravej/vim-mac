@@ -22,10 +22,10 @@ set laststatus=2
 set t_Co=256
 set hlsearch
 set showcmd
-set guifont=Inconsolata\ for\ Powerline:h15
-set guifont=DroidSansMono\ Nerd\ Font\ Mono:h11
+" set guifont=Inconsolata\ for\ Powerline:h15
+" set guifont=DroidSansMono\ Nerd\ Font\ Mono:h11
 " set guifont=DroidSansMono_Nerd_Font_Mono:h11
-let g:airline_powerline_fonts = 1
+let g:airline_powerline_fonts=1
 
 let g:Powerline_symbols='fancy'
 let g:fixjson_indent_size=4
