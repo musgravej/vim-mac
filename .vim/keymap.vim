@@ -18,3 +18,11 @@ nnoremap <leader>f :wincmd l<CR>
 " insert a space
 nnoremap <leader><space> i<space><right><esc>
 " nnoremap <silent> <localleader>h <Plug>(YCMToggleInlayHints)
+" tnoremap <Esc><Esc> <C-j>:q!<CR>
+" ctrl+p to toggle between previous windows (terminal)
+tnoremap <leader>t <C-w>p
+tnoremap <leader>w <C-w>
+
+nnoremap <leader>t <C-w>p
+nnoremap <leader>w <C-w>
+
