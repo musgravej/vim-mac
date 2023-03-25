@@ -8,8 +8,8 @@ set foldlevel=99
 syntax enable
 " colors
 " source ~/.vim/colorscheme.vim
-set background=dark
-colorscheme darcula
+" set background=dark
+" colorscheme darcula
 setlocal spell spelllang=en_us
 set nospell
 " set conceallevel=3
@@ -27,15 +27,15 @@ set hlsearch
 set showcmd
 " set guifont=Inconsolata\ for\ Powerline:h15
 " set guifont=DroidSansMono\ Nerd\ Font\ Mono:h11
-set guifont=DroidSansMono_Nerd_Font_Mono:h11
+" set guifont=DroidSansMono_Nerd_Font_Mono:h11
 
-let g:Powerline_symbols='fancy'
+" let g:Powerline_symbols='fancy'
 let g:fixjson_indent_size=4
 " let g:fixjson_fix_on_save = 0
 set fillchars+=stl:\ ,stlnc:\
-set term=xterm-256color
+" set term=xterm-256color
 set termencoding=utf-8
-set rtp+=~/.fzf
+" set rtp+=~/.fzf
 set smartcase
 set ignorecase
 " set foldcolumn=1
@@ -46,27 +46,27 @@ let g:ale_python_flake8_options='--max-line-length=120'
 let g:syntastic_python_flake8_post_args="--max-line-length=120"
 let g:syntastic_python_checkers=["flake8"]
 let g:syntastic_python_checker_args="--ignore=E501,W601"
-let g:NERDTreeWinSize=40
-let g:NERDTreeShowHidden=1
+" let g:NERDTreeWinSize=40
+" let g:NERDTreeShowHidden=1
 
 let g:ale_echo_msg_error_str = 'E'
 let g:ale_echo_msg_warning_str = 'W'
 let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
 
-let g:NERDTreeGitStatusIndicatorMapCustom = {
-		\ 'Modified'  :'✹',
-		\ 'Staged'    :'✚',
-		\ 'Untracked' :'✭',
-		\ 'Renamed'   :'➜',
-		\ 'Unmerged'  :'═',
-		\ 'Deleted'   :'✖',
-		\ 'Dirty'     :'✗',
-		\ 'Ignored'   :'☒',
-		\ 'Clean'     :'✔︎',
-		\ 'Unknown'   :'?',
-		\ }
-let g:NERDTreeGitStatusUseNerdFonts = 1
-" YouCompleteMe, hint options
+" " let g:NERDTreeGitStatusIndicatorMapCustom = {
+" " 		\ 'Modified'  :'✹',
+" " 		\ 'Staged'    :'✚',
+" " 		\ 'Untracked' :'✭',
+" " 		\ 'Renamed'   :'➜',
+" " 		\ 'Unmerged'  :'═',
+" " 		\ 'Deleted'   :'✖',
+" " 		\ 'Dirty'     :'✗',
+" " 		\ 'Ignored'   :'☒',
+" " 		\ 'Clean'     :'✔︎',
+" " 		\ 'Unknown'   :'?',
+" " 		\ }
+" " let g:NERDTreeGitStatusUseNerdFonts = 1
+" " YouCompleteMe, hint options
 set completeopt-=preview
 set completeopt-=popup
 let g:ycm_add_preview_to_completeopt=0

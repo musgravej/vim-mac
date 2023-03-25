@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/tmp'
+let g:netrw_dirhist_7='/Users/james/Documents/carium_notes/sol_notes'
+let g:netrw_dirhist_6='/Users/james/Documents/carium_notes/sol_notes/archive'
+let g:netrw_dirhist_5='/Users/james/Documents/carium_notes/sol_notes/archive/SOL-1142'
+let g:netrw_dirhist_4='/Users/james/github/profiles/profiles/carium/event_handlers'
+let g:netrw_dirhist_3='/Users/james/github/profiles/profiles'
+let g:netrw_dirhist_2='/Users/james/github/profiles/profiles/mecca_gym'
+let g:netrw_dirhist_1='/Users/james/github/profiles/profiles'

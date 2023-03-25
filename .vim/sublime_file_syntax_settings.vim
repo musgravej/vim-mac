@@ -19,16 +19,16 @@ au BufNewFile,BufRead *.py
     \ set expandtab |
     \ set autoindent |
     \ set fileformat=unix |
-    \ set foldmethod=indent |
+    \ set foldmethod=indent
     " \ colorscheme onedark
-    \ colorscheme nord 
+    " \ colorscheme nord 
 
 au BufNewFile,BufRead *.json
     \ set tabstop=4 |
 	\ set smarttab |
     \ set expandtab |
     \ set softtabstop=4 |
-    \ colorscheme onedark |
+    " \ colorscheme onedark |
     \ set shiftwidth=4 |
     \ set foldmethod=syntax |
     \ set nowrap
@@ -36,6 +36,6 @@ au BufNewFile,BufRead *.json
  au BufNewFile,BufRead *.js, *.html, *.css <here>:</here>
     \ set tabstop=2 |
     \ set softtabstop=2 |
-    \ colorscheme onedark |
+    " \ colorscheme onedark |
     \ set shiftwidth=2
 
