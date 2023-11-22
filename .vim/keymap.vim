@@ -2,6 +2,7 @@
 nnoremap <space> za
 " insert mode map"
 inoremap jk <esc>
+inoremap ii <esc>
 
 " normal mode map"
 nnoremap <silent> <C-@>  :<c-u>put!=repeat([''],v:count)<bar>']+1<cr>

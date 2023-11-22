@@ -20,8 +20,9 @@ au BufNewFile,BufRead *.py
     \ set autoindent |
     \ set fileformat=unix |
     \ set foldmethod=indent |
+	" use onedark
     " \ colorscheme onedark
-    \ colorscheme nord 
+    " \ colorscheme nord 
 
 au BufNewFile,BufRead *.json
     \ set tabstop=4 |
