@@ -69,6 +69,8 @@ let g:NERDTreeGitStatusUseNerdFonts = 1
 " YouCompleteMe, hint options
 set completeopt-=preview
 set completeopt-=popup
+" Use homebrew's clangd
+let g:ycm_clangd_binary_path = trim(system('brew --prefix llvm')).'/bin/clangd'
 let g:ycm_add_preview_to_completeopt=0
 let g:ycm_autoclose_preview_window_after_insertion=1
 
@@ -106,3 +108,4 @@ nnoremap <leader>x x
 vnoremap <leader>x x
 nnoremap <leader>X X
 vnoremap <leader>X X
+
