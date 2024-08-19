@@ -16,8 +16,10 @@ set nospell
 autocmd BufWritePre *.py %s/\s\+$//e 
 autocmd BufWritePre *.txt %s/\s\+$//e 
 
-let g:mapleader = ","
-let mapleader=","
+let g:mapleader = " "
+let mapleader=" "
+" set g:mapleader = ","
+" let mapleader=","
 set number
 set relativenumber
 set encoding=utf-8

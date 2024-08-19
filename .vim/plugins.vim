@@ -8,7 +8,7 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 " Bundle 'Valloric/YouCompleteMe'
-Plugin 'ycm-core/YouCompleteMe'
+" Plugin 'ycm-core/YouCompleteMe'
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'itchyny/lightline.vim'
 " Bundle 'powerline/powerline'

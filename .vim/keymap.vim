@@ -1,8 +1,9 @@
 " keymap >>
-nnoremap <space> za
+" nnoremap <space> za
+nnoremap <leader>ff za
 " insert mode map"
 inoremap jk <esc>
-inoremap ii <esc>
+inoremap ;; <esc>
 
 " normal mode map"
 nnoremap <silent> <C-@>  :<c-u>put!=repeat([''],v:count)<bar>']+1<cr>
@@ -41,10 +42,24 @@ nnoremap <leader>td  :tabclose<CR>
 nnoremap <leader>tn :tabnew<CR>
 
 " move lines up or down
-nnoremap <C-j> :m .+1<CR>==
-nnoremap <C-k> :m .-2<CR>==
-inoremap <A-j> <Esc>:m .+1<CR>==gi
-inoremap <A-k> <Esc>:m .-2<CR>==gi
-vnoremap <A-j> :m '>+1<CR>gv=gv
-vnoremap <A-k> :m '<-2<CR>gv=gv
+nnoremap <C-S-backspace> :m .+1<CR>==
+nnoremap <C-backspace> :m .-2<CR>==
+inoremap <C-S-backspace> <Esc>:m .+1<CR>==gi
+inoremap <C-backspace> <Esc>:m .-2<CR>==gi
+vnoremap <C-S-backspace> :m '>+1<CR>gv=gv
+vnoremap <C-backspace> :m '<-2<CR>gv=gv
+
+" copy to clipboard
+" *copy *line (with cr, without)
+nnoremap <leader>cL "*yy
+vnoremap <leader>cL "*y
+
+nnoremap <leader>cl mz^"*y$`z
+vnoremap <leader>cl mz^"*y$`z
+nnoremap <leader>cf mzG$"*ygg `z
+vnoremap <leader>cf mzG$"*ygg `z
+
+" *paste *line (above, below)
+nnoremap <leader>pl o<Esc>"*p
+nnoremap <leader>Pl O<Esc>"*p
 
