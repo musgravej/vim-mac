@@ -56,6 +56,7 @@ vnoremap <leader>cL "*y
 
 nnoremap <leader>cl mz^"*y$`z
 vnoremap <leader>cl mz^"*y$`z
+" copy file
 nnoremap <leader>cf mzG$"*ygg `z
 vnoremap <leader>cf mzG$"*ygg `z
 
