@@ -1,6 +1,6 @@
 " keymap >>
 " nnoremap <space> za
-nnoremap <leader>ff za
+nnoremap ,<space> za
 " insert mode map"
 inoremap jk <esc>
 inoremap ;; <esc>
