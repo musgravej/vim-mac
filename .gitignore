@@ -4,4 +4,6 @@
 .vim/scratch.json
 .vim/black/*
 *.swp
-
+*tmp.*
+temp.*
+scratch.*
