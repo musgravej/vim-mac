@@ -13,8 +13,8 @@ colorscheme darcula
 setlocal spell spelllang=en_us
 set nospell
 " set conceallevel=3
-autocmd BufWritePre *.py %s/\s\+$//e 
-autocmd BufWritePre *.txt %s/\s\+$//e 
+autocmd BufWritePre *.py %s/\s\+$//e
+autocmd BufWritePre *.txt %s/\s\+$//e
 
 let g:mapleader = " "
 let mapleader=" "
