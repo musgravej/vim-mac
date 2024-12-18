@@ -4,9 +4,9 @@ function! NERDTreeHighlightFile(extension, fg, bg, guifg, guibg)
  exec 'autocmd FileType nerdtree syn match ' . a:extension .' #^\s\+.*'. a:extension .'$#'
 endfunction
 
-nnoremap <leader>n :NERDTreeFocus<CR>
+" nnoremap <leader>n :NERDTreeFocus<CR>
 " nnoremap <C-n> :NERDTree<CR>
-nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <leader>ee :NERDTreeToggle<CR>
 " nnoremap <C-f> :NERDTreeFind<CR>
 
 call NERDTreeHighlightFile('jade', 'green', 'none', 'green', '#151515')
