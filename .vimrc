@@ -10,4 +10,5 @@ source ~/.vim/file_syntax_settings.vim
 source ~/.vim/fzf_settings.vim
 source ~/.vim/keymap.vim
 source ~/.vim/nerdtree_settings.vim
+source ~/.vim/plugin_keymap.vim
 
