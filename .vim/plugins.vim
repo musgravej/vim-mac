@@ -29,6 +29,7 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'chrisbra/csv.vim'
 Plugin 'christoomey/vim-system-copy'
 Plugin 'commentary.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'dense-analysis/ale'
 Plugin 'frazrepo/vim-rainbow'
 Plugin 'gmarik/Vundle.vim'
@@ -39,15 +40,15 @@ Plugin 'jeetsukumaran/vim-pythonsense'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'joshdick/onedark.vim'
 Plugin 'junegunn/fzf.vim'
-Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'liuchengxu/vim-which-key'
 Plugin 'neoclide/coc-python'
 Plugin 'psf/black'
 Plugin 'rhysd/vim-fixjson'
 Plugin 'surround.vim'
+Plugin 'tmhedberg/SimpylFold'
 Plugin 'vim-scripts/indentpython.vim'
 " add all your plugins here (note older versions of Vundle
 " used Bundle instead of Plugin)
-Plugin 'tmhedberg/SimpylFold'
 
 " ...
 
