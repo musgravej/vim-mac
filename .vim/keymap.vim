@@ -15,37 +15,45 @@ nnoremap <leader>www :w<CR>
 nnoremap <silent> <C-@>  :<c-u>put!=repeat([''],v:count)<bar>']+1<cr>
 " nnoremap <silent> ]<space>  :<c-u>put =repeat([''],v:count)<bar>'[-1<cr>]]
 
+" window management (split)
 " move window backwards
-nnoremap <leader>b :wincmd h<CR>
+nnoremap <leader>wj :wincmd h<CR>
 " move window forwards
-nnoremap <leader>f :wincmd l<CR>
+nnoremap <leader>wk :wincmd l<CR>
+nnoremap <leader>wl <C-w>99l  " Move cursor to the last window
+nnoremap <leader>wh <C-w>99h  " Move cursor to the first window
+nnoremap <leader>wu <C-w><Up>  " Move cursor up window
+nnoremap <leader>wd <C-w><Down>  " Move cursor down window
+nnoremap <leader>wn <C-w><C-x>  " Swap window to the right
+nnoremap <leader>wx :close<CR>
+nnoremap <leader>wc :close<CR>
+nnoremap <leader>w= <C-w>=
+nnoremap <leader>wsh <C-w>s
+nnoremap <leader>wsv <C-w>v
+
+
 " insert a space
 nnoremap <leader><space> i<space><right><esc>
 " nnoremap <silent> <localleader>h <Plug>(YCMToggleInlayHints)
-" tnoremap <Esc><Esc> <C-j>:q!<CR>
 " ctrl+p to toggle between previous windows (terminal)
 
 " tab mapping
-tnoremap <leader>t <C-w>w
-tnoremap <leader>w <C-w>
-
+nnoremap <leader>tn :tabnew<CR>
 nnoremap <leader>th  :tabfirst<CR>
 nnoremap <leader>tk  :tabnext<CR>
 nnoremap <leader>tj  :tabprev<CR>
 nnoremap <leader>tl  :tablast<CR>
-" nnoremap tt  :tabedit<Space>
-" nnoremap tn  :tabnext<Space>
-nnoremap <leader>tm  :tabm<Space>
-nnoremap <leader>td  :tabclose<CR>
-nnoremap <leader>tn :tabnew<CR>
+nnoremap <leader>tc  :tabclose<CR>
+nnoremap <leader>tx  :tabclose<CR>
+nnoremap <leader>tb :tabnew %<CR>  " create new tab from current buffer
 
 " move lines up or down
-nnoremap <C-S-backspace> :m .+1<CR>==
-nnoremap <C-backspace> :m .-2<CR>==
-inoremap <C-S-backspace> <Esc>:m .+1<CR>==gi
-inoremap <C-backspace> <Esc>:m .-2<CR>==gi
-vnoremap <C-S-backspace> :m '>+1<CR>gv=gv
-vnoremap <C-backspace> :m '<-2<CR>gv=gv
+nnoremap <C-S-i> :m .+1<CR>==
+nnoremap <C-S-k> :m .-2<CR>==
+inoremap <C-S-i> <Esc>:m .+1<CR>==gi
+inoremap <C-S-k> <Esc>:m .-2<CR>==gi
+vnoremap <C-S-i> :m '>+1<CR>gv=gv
+vnoremap <C-S-k> :m '<-2<CR>gv=gv
 
 " copy to clipboard
 " *copy *line (with cr, without)
