@@ -48,12 +48,12 @@ nnoremap <leader>tx  :tabclose<CR>
 nnoremap <leader>tb :tabnew %<CR>  " create new tab from current buffer
 
 " move lines up or down
-nnoremap <C-S-i> :m .+1<CR>==
-nnoremap <C-S-k> :m .-2<CR>==
-inoremap <C-S-i> <Esc>:m .+1<CR>==gi
-inoremap <C-S-k> <Esc>:m .-2<CR>==gi
-vnoremap <C-S-i> :m '>+1<CR>gv=gv
-vnoremap <C-S-k> :m '<-2<CR>gv=gv
+nnoremap <C-S-k> :m .+1<CR>==
+nnoremap <C-S-i> :m .-2<CR>==
+inoremap <C-S-k> <Esc>:m .+1<CR>==gi
+inoremap <C-S-i> <Esc>:m .-2<CR>==gi
+vnoremap <C-S-k> :m '>+1<CR>gv=gv
+vnoremap <C-S-i> :m '<-2<CR>gv=gv
 
 " copy to clipboard
 " *copy *line (with cr, without)
